@@ -9,7 +9,50 @@ Here's the simplified, compliant version of the page that meets your requirement
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hawkeye Tribute Page</title>
-    <style>
+</head>
+<body>
+    <div id="main">
+        <h1 id="title">Clint Barton: Hawkeye</h1>
+        <div id="img-div">
+            <img 
+                id="image"
+                src="https://i.pinimg.com/736x/36/57/75/3657758aabae0d13e0b896dc0db5c50b--marvel-logo-marvel-comics.jpg"
+                alt="Clint Barton as Hawkeye">
+            <figcaption id="img-caption">Clint Barton, a.k.a. Hawkeye</figcaption>
+        </div>
+        <div id="tribute-info">
+            <div class="quote">
+                "The arrow finds its mark in time. It just depends on how you aim."
+            </div>
+            <div class="timeline">
+                <h2>Key Moments in Hawkeye's Career</h2>
+                <ul class="timeline-list">
+                    <li class="timeline-item">
+                        <strong>1970s</strong> - Becomes a member of the Avengers
+                    </li>
+                    <li class="timeline-item">
+                        <strong>1980s</strong> - Adopts identity of Hawkeye
+                    </li>
+                    <li class="timeline-item">
+                        <strong>2000s</strong> - Joins the New Avengers
+                    </li>
+                    <li class="timeline-item">
+                        <strong>2010s</strong> - Mentors Kate Bishop
+                    </li>
+                </ul>
+            </div>
+            <a 
+                id="tribute-link" 
+                href="https://en.wikipedia.org/wiki/Hawkeye_(Clint_Barton)" 
+                target="_blank">
+                Read more about Hawkeye
+            </a>
+        </div>
+    </div>
+</body>
+</html>
+```
+<style>
         body {
             margin: 0;
             padding: 0;
@@ -101,50 +144,11 @@ Here's the simplified, compliant version of the page that meets your requirement
             border-radius: 10px;
             color: #ffffff;
         }
-    </style>
-</head>
-<body>
-    <div id="main">
-        <h1 id="title">Clint Barton: Hawkeye</h1>
-        <div id="img-div">
-            <img 
-                id="image"
-                src="https://i.pinimg.com/736x/36/57/75/3657758aabae0d13e0b896dc0db5c50b--marvel-logo-marvel-comics.jpg"
-                alt="Clint Barton as Hawkeye">
-            <figcaption id="img-caption">Clint Barton, a.k.a. Hawkeye</figcaption>
-        </div>
-        <div id="tribute-info">
-            <div class="quote">
-                "The arrow finds its mark in time. It just depends on how you aim."
-            </div>
-            <div class="timeline">
-                <h2>Key Moments in Hawkeye's Career</h2>
-                <ul class="timeline-list">
-                    <li class="timeline-item">
-                        <strong>1970s</strong> - Becomes a member of the Avengers
-                    </li>
-                    <li class="timeline-item">
-                        <strong>1980s</strong> - Adopts identity of Hawkeye
-                    </li>
-                    <li class="timeline-item">
-                        <strong>2000s</strong> - Joins the New Avengers
-                    </li>
-                    <li class="timeline-item">
-                        <strong>2010s</strong> - Mentors Kate Bishop
-                    </li>
-                </ul>
-            </div>
-            <a 
-                id="tribute-link" 
-                href="https://en.wikipedia.org/wiki/Hawkeye_(Clint_Barton)" 
-                target="_blank">
-                Read more about Hawkeye
-            </a>
-        </div>
-    </div>
-</body>
-</html>
-```
+
+
+
+
+
 
 This version:
 1. Uses the exact structure required by your guidelines
